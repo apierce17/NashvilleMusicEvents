@@ -2,6 +2,10 @@ var searchFormEl = document.querySelector("#user-form")
 var artistInputEl = document.querySelector("#artist-search")
 var eventContainerEl = document.querySelector("#event-container")
 var artistSearchTerm = document.querySelector("#event-search-term")
+$( document ).ready(function() {
+    getEvents('All');
+});
+
 
 function getEvents(keyword)
     {
